@@ -10,8 +10,8 @@ function Filter({State, setState, Letter, setLetter, Country, setCountry}) {
                 <div className='pb-[30px]'>
                     <h1 className='font-Lora lg:text-[30px] md:text-[25px] text-[20px] text-lightGreen'>Filter By:</h1>
                     <select className="font-Nunito lg:text-[20px] text-[15px] text-medGreen form-select block mt-1 bg-[#FFFFFF]" value={State} onChange={(e) => setState(e.target.value)}>
-                        <option selected value='ByName'>By Name</option>
-                        <option value='ByCountry'>By Country</option>    
+                        <option selected value='ByName'>Name</option>
+                        <option value='ByCountry'>Country</option>    
                     </select>
                 </div>
                 
