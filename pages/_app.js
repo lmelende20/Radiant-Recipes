@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:image" content="/favicon.png" />
       </Head>
       <Navbar/>
-      <div className='w-100% flex flex-col items-end pb-[30px]'>
+      <div className='w-100% flex flex-col items-end pb-[30px] invisible md:visible'>
         <ToTopButton/>
       </div>
       <Component {...pageProps} />
