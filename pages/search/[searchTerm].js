@@ -23,7 +23,6 @@ function SearchTerm() {
             let {data} = await axios.get(`https://www.themealdb.com/api/json/v1/1/search.php?s=${router.query.searchTerm}`);
             
             setData(data)
-            console.log(data)
             setLoading(false)
         }
   

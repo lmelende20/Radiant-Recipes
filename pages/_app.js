@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.svg" />
         <meta property="og:title" content="Radiant Recipes" />
         <meta name="description" content="Explore exciting recipes from around the world!"/>
-        <meta property="og:image" content="/favicon.svg" />
+        <meta property="og:image" content="/favicon.png" />
       </Head>
       <Navbar/>
       <div className='w-100% flex flex-col items-end pb-[30px]'>
