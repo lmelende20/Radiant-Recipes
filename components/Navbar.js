@@ -17,9 +17,9 @@ function Navbar() {
               router.push(`/search/${input}`)
               setInput("")
               }}>
-                <input value={input} onChange={(e)=>setInput(e.target.value)} type='text' id='search' placeholder='Search Recipes...' className='font-Nunito text-medGreen md:text-[20px] text-[10px] pl-[10px] py-[5px] md:rounded-l-[10px] rounded-l-[5px]' />
+                <input value={input} onChange={(e)=>setInput(e.target.value)} type='text' id='search' placeholder='Search Recipes...' className='font-Nunito text-medGreen md:text-[20px] text-[10px] pl-[10px] py-[5px] md:rounded-l-[10px] rounded-l-[5px] rounded-r-[0px]' />
                 
-                <input type="submit" value="Search" className='bg-darkCoral font-Nunito md:text-[20px] text-[10px] px-[10px] py-[5px] text-lightCoral md:rounded-r-[10px] rounded-r-[5px]'/>
+                <input type="submit" value="Search" className='bg-darkCoral font-Nunito md:text-[20px] text-[10px] px-[10px] py-[5px] text-lightCoral md:rounded-r-[10px] rounded-l-[0px] rounded-r-[5px]'/>
             </form>
             
         </div>

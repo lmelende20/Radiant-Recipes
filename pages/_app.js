@@ -14,7 +14,6 @@ function MyApp({ Component, pageProps }) {
       return ''
     }
   }
-  console.log(router.pageName)
   return (
     <div className='bg-bgGreen  min-h-screen lg:px-[80px] md:px-[55px] px-[30px]'>
       <Head>
