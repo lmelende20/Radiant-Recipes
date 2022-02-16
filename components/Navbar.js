@@ -8,7 +8,7 @@ function Navbar() {
   const [input, setInput] = useState("")
   return (
     <div className='flex md:justify-between md:flex-row flex-col items-center'>
-        <Image src='/logo2.svg' alt='logo' width={250} height={100} className='cursor-pointer' onClick={()=>router.push(`/`)}/>
+        <Image src='/Logo2.svg' alt='logo' width={250} height={100} className='cursor-pointer' onClick={()=>router.push(`/`)}/>
 
         <div className='flex'>
             <form onSubmit={(e)=>{
