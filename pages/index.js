@@ -71,7 +71,7 @@ export default function Home() {
       <div className='w-full bg-lightGreen h-[1px] mt-[20px]'/>
       {State === 'ByName' ? <h1 className='font-Lora lg:text-[30px] text-[25px] text-lightGreen pt-[20px] lg:text-left text-center'>Recipes that start with {Letter}</h1> : <h1 className='font-Lora lg:text-[30px] md:text-[25px] text-[20px] text-lightGreen pt-[20px]'>{Country} Recipes</h1>}
       
-      <div className='pt-[40px]'>
+      <div className='py-[40px]'>
         {data.meals === null ? <Error /> : 
           <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 items-start place-items-center'>
           {
