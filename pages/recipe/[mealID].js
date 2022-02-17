@@ -39,7 +39,7 @@ function MealID({ID}) {
     function getIngredientList(item){
         const ingredientList = [];
         for (let i = 1; i < 21; i++){
-          if (item["strIngredient" + i].trim() === null || item["strIngredient" + i].trim() === ""){
+          if (item["strIngredient" + i] === null || item["strIngredient" + i].trim() === ""){
             break
           }
           else{
