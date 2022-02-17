@@ -72,19 +72,19 @@ function MealID({ID}) {
 
     
     return (
-        <div className='pb-[50px] pt-[30px]'>
+        <div className='pb-[50px]'>
             <Head>
                 <title>{data.strMeal} | Radiant Recipes</title>
             </Head>
             <div className=' flex md:flex-row flex-col md:justify-between justify-center md:items-start items-center'>
-                <div className='hidden md:flex'>
+                <div className='hidden lg:flex'>
                     <div className='flex flex-col md:items-start items-center'>
                         <h1 className='text-darkCoral font-Lora lg:text-[40px] md:text-[35px] text-[30px] pb-[30px]'>{data.strMeal}</h1>
                         <Image src={data.strMealThumb} alt={data.strMeal} width={400} height={400}/>
                     </div>
                     
                 </div>
-                <div className='md:hidden flex flex-col md:items-start items-center'>
+                <div className='lg:hidden flex flex-col md:items-start items-center'>
                     <h1 className='text-darkCoral font-Lora lg:text-[40px] md:text-[35px] text-[30px] pb-[30px]'>{data.strMeal}</h1>
                     <Image src={data.strMealThumb} alt={data.strMeal} width={300} height={300}/>
                 </div>
