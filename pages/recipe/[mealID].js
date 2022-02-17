@@ -76,20 +76,20 @@ function MealID({ID}) {
             <Head>
                 <title>{data.strMeal} | Radiant Recipes</title>
             </Head>
-            <div className=' flex md:flex-row flex-col lg:justify-between justify-around items-center'>
+            <div className=' flex md:flex-row flex-col md:justify-between justify-center md:items-start items-center'>
                 <div className='hidden md:flex'>
-                    <div>
+                    <div className='flex flex-col md:items-start items-center'>
                         <h1 className='text-darkCoral font-Lora lg:text-[40px] md:text-[35px] text-[30px] pb-[30px]'>{data.strMeal}</h1>
                         <Image src={data.strMealThumb} alt={data.strMeal} width={400} height={400}/>
                     </div>
                     
                 </div>
-                <div className='md:hidden'>
+                <div className='md:hidden flex flex-col md:items-start items-center'>
                     <h1 className='text-darkCoral font-Lora lg:text-[40px] md:text-[35px] text-[30px] pb-[30px]'>{data.strMeal}</h1>
                     <Image src={data.strMealThumb} alt={data.strMeal} width={300} height={300}/>
                 </div>
-                <div className='flex flex-col'>
-                    <h1 className='text-lightGreen font-Lora lg:text-[35px] md:text-[30px] text-[25px] items-center pt-[20px] md:pt-[0]'>Ingredients:</h1>
+                <div className='flex flex-col items-center'>
+                    <h1 className='text-lightGreen font-Lora lg:text-[35px] md:text-[30px] text-[25px] pt-[20px] md:pt-[0]'>Ingredients:</h1>
 
                     <div className='flex '>
                         <div>
