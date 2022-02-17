@@ -79,13 +79,13 @@ function MealID({ID}) {
             <div className=' flex md:flex-row flex-col md:justify-between justify-center md:items-start items-center'>
                 <div className='hidden lg:flex'>
                     <div className='flex flex-col md:items-start items-center'>
-                        <h1 className='text-darkCoral font-Lora lg:text-[40px] md:text-[35px] text-[30px] pb-[30px]'>{data.strMeal}</h1>
+                        <h1 className='text-darkCoral font-Lora lg:text-[40px] md:text-[35px] text-[30px] pb-[30px] md:text-left text-center'>{data.strMeal}</h1>
                         <Image src={data.strMealThumb} alt={data.strMeal} width={400} height={400}/>
                     </div>
                     
                 </div>
                 <div className='lg:hidden flex flex-col md:items-start items-center'>
-                    <h1 className='text-darkCoral font-Lora lg:text-[40px] md:text-[35px] text-[30px] pb-[30px]'>{data.strMeal}</h1>
+                    <h1 className='text-darkCoral font-Lora lg:text-[40px] md:text-[35px] text-[30px] pb-[30px] md:text-left text-center'>{data.strMeal}</h1>
                     <Image src={data.strMealThumb} alt={data.strMeal} width={300} height={300}/>
                 </div>
                 <div className='flex flex-col items-center'>
