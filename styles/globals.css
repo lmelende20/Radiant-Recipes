@@ -17,4 +17,14 @@ html{
   scroll-behavior: smooth;
 }
 
+.filter-select {
+  -webkit-appearance: none;
+}
+
+@media only screen and (min-height: 1000px) {
+  .top {
+    visibility: hidden;
+  }
+}
+
 @tailwind utilities;
