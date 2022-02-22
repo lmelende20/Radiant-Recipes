@@ -17,7 +17,7 @@ html{
   scroll-behavior: smooth;
 }
 
-.filter-select {
+select {
   -webkit-appearance: none;
 }
 
